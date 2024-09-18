@@ -14,3 +14,9 @@
     align-items: space-between;
 }
 
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* TO-DO: study box-sizing */
+  }
