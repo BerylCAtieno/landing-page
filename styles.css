@@ -12,8 +12,18 @@
     padding: 0;
 }
 
-.header {
+.header-wrapper {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
 }
 
 
