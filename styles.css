@@ -1,14 +1,14 @@
 .intro-section {
     background-color: #d391b0;
     margin: 0;
+    padding-bottom: 10px;
 }
 
 .logo {
     font-size: 24px;
     font-weight: 900;
-    color: white;
+    color: #f9f8fa;
     display: flex;
-    border: 2px solid black;
     padding: 0;
 }
 
@@ -17,13 +17,23 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding-top: 10px;
 }
 
 .links {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
 }
 
 
@@ -32,3 +42,29 @@ html, body {
     padding: 0;
     box-sizing: border-box; /* TO-DO: study box-sizing */
   }
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+}
+
+.text-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 15px;
+    max-width: 600px;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
