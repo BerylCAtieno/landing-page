@@ -55,7 +55,7 @@ html, body {
     justify-content: center;
     align-items: left;
     gap: 15px;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .main-text {
@@ -67,4 +67,52 @@ html, body {
 .secondary-text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+/*.reservation-button {
+    max-width: fit-content;
+    background-color: #f0a599;
+    border-width: 0;
+}*/
+
+.reservation-button {
+  align-items: center;
+  appearance: none;
+  max-width: fit-content;
+  background-color: #f0a599;
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 15px;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.reservation-button:active,
+.reservation-button:focus {
+  outline: none;
+}
+
+.reservation-button:hover {
+  background-position: -20px -20px;
+}
+
+.reservation-button:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
 }
