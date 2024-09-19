@@ -116,3 +116,16 @@ html, body {
 .reservation-button:focus:not(:active) {
   box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
 }
+
+.main-image-container {
+    max-width: fit-content;
+    height: auto;
+    background-color: #d391b0;
+}
+
+.main-image {
+    height: auto;
+    width: 620px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
