@@ -168,3 +168,105 @@ html, body {
     text-align: center;
     font-weight: 400;
 }
+
+.quote-section {
+    background-color: #f1d3e1;
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+.contact-section {
+    height: 150px;
+}
+
+.quote-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 900px;
+    margin-left: 250px;
+    padding-top: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-citation {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f2937;
+    text-align: right;
+    padding-top: 20px;
+    align-items: right;
+}
+
+.action-container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #d391b0;
+    max-width: 900px;
+    border-radius: 7px;
+    margin-top: 100px;
+    margin-left: 200px;
+    height: 100px;
+    gap: 150px;
+}
+
+.action-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: right;
+}
+
+.call-to-action-button {
+    align-items: center;
+    appearance: none;
+    max-width: fit-content;
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 1px;
+    box-shadow: none;
+    border-color: #e5e7eb;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 15px;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s,background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.main-action-text {
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+}
+
+.secondary-action-text {
+    font-size: 17px;
+    color: white;
+}
+
+footer {
+    background-color: #d391b0;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
