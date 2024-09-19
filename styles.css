@@ -228,9 +228,11 @@ html, body {
     align-items: center;
     appearance: none;
     max-width: fit-content;
+    background-color: #d391b0;
     background-size: calc(100% + 20px) calc(100% + 20px);
     border-radius: 100px;
-    border-width: 1px;
+    border-width: 2px;
+    border-color: #f9f8fa;
     box-shadow: none;
     border-color: #e5e7eb;
     box-sizing: border-box;
