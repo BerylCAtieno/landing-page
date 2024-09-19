@@ -139,14 +139,32 @@ html, body {
 
 .illustrations-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    max-width: fit-content;
-    gap: 50px;
+    gap: 15px;
     margin-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .illustration-image {
     border: 2px solid #d391b0;
     border-radius: 10px;
+}
+
+.illustration-item {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.illustration-text {
+    font-size: 15px;
+    color: #d391b0;
+    text-wrap: wrap;
+    text-align: center;
+    font-weight: 400;
 }
