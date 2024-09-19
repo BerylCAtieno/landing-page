@@ -129,3 +129,24 @@ html, body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.our-services-heading {
+    text-align: center;
+    color: #d391b0;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.illustrations-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: fit-content;
+    gap: 50px;
+    margin-left: 20px;
+}
+
+.illustration-image {
+    border: 2px solid #d391b0;
+    border-radius: 10px;
+}
